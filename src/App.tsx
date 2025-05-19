@@ -4,6 +4,7 @@ import { fortunes, type Fortune } from './constants/fortunes';
 import Gacha from './components/Gacha';
 import Result from './components/Result';
 import { soundEffests } from './utils/soundEffects';
+import { assetPath } from './utils/assetPath';
 
 type Result = {
   rank: Fortune['rank'];
@@ -48,7 +49,7 @@ export const App = () => {
       <header className="fixed top-0 w-full text-center bg-white/80 backdrop-blur-md shadow-md py-4 z-50">
         <div className="flex justify-center items-center gap-5">
           <img
-            src="/icon/gacha.png"
+            src={assetPath('/icon/gacha.png')}
             alt="ガチャアイコン"
             className="w-8 h-8 -rotate-12"
           />
@@ -56,7 +57,8 @@ export const App = () => {
             まわして！おみくじん
           </h1>
           <img
-            src="/icon/omikuji.png"
+            // src={assetPath('/icon/omikuji.png')}
+            src={`${import.meta.env.BASE_URL}icon/omikuji.png`}
             alt="おみくじアイコン"
             className="w-9 h-9 rotate-6"
           />
