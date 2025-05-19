@@ -1,3 +1,5 @@
+import { assetPath } from './assetPath';
+
 export const soundEffests = () => {
   const play = (path: string) => {
     const audio = new Audio(path);
@@ -5,8 +7,8 @@ export const soundEffests = () => {
   };
 
   return {
-    playClickSound: () => play('/sound/click.mp3'),
-    playResultSound: () => play('/sound/result.mp3'),
-    playbellSound: () => play('/sound/bell.mp3'),
+    playClickSound: () => play(assetPath('/sound/click.mp3')),
+    playResultSound: () => play(assetPath('/sound/result.mp3')),
+    playbellSound: () => play(assetPath('/sound/bell.mp3')),
   };
 };

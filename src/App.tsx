@@ -57,8 +57,7 @@ export const App = () => {
             まわして！おみくじん
           </h1>
           <img
-            // src={assetPath('/icon/omikuji.png')}
-            src={`${import.meta.env.BASE_URL}icon/omikuji.png`}
+            src={assetPath('/icon/omikuji.png')}
             alt="おみくじアイコン"
             className="w-9 h-9 rotate-6"
           />
