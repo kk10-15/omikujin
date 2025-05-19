@@ -49,7 +49,7 @@ export const App = () => {
       <header className="fixed top-0 w-full text-center bg-white/80 backdrop-blur-md shadow-md py-4 z-50">
         <div className="flex justify-center items-center gap-5">
           <img
-            src={assetPath('/icon/gacha.png')}
+            src={assetPath('icon/gacha.png')}
             alt="ガチャアイコン"
             className="w-8 h-8 -rotate-12"
           />
@@ -57,7 +57,7 @@ export const App = () => {
             まわして！おみくじん
           </h1>
           <img
-            src={assetPath('/icon/omikuji.png')}
+            src={assetPath('icon/omikuji.png')}
             alt="おみくじアイコン"
             className="w-9 h-9 rotate-6"
           />

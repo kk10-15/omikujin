@@ -7,8 +7,8 @@ export const soundEffests = () => {
   };
 
   return {
-    playClickSound: () => play(assetPath('/sound/click.mp3')),
-    playResultSound: () => play(assetPath('/sound/result.mp3')),
-    playbellSound: () => play(assetPath('/sound/bell.mp3')),
+    playClickSound: () => play(assetPath('sound/click.mp3')),
+    playResultSound: () => play(assetPath('sound/result.mp3')),
+    playbellSound: () => play(assetPath('sound/bell.mp3')),
   };
 };
