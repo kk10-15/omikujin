@@ -28,15 +28,15 @@ export default tseslint.config({
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
 // eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+import reactX from 'eslint-plugin-react-x';
+import reactDom from 'eslint-plugin-react-dom';
 
 export default tseslint.config({
   plugins: {
@@ -50,5 +50,42 @@ export default tseslint.config({
     ...reactX.configs['recommended-typescript'].rules,
     ...reactDom.configs.recommended.rules,
   },
-})
+});
 ```
+
+# おみくじん（Omikujin）
+
+Web で楽しめるおみくじガチャアプリです！
+ボタンを押下すると、カプセルが回転して今日の運勢が表示されます。
+落ち込んでる人を励ましたいというコンセプトで作りました。
+
+## デモページ
+
+[▶:▶ おみくじんを使ってみる](https://kk10-15.github.io/omikujin/)
+
+## 使用技術
+
+React + TypeScript
+Vite
+Tailwind CSS
+GitHub Pages で公開
+
+## 開発経緯
+
+React と TypeScript の学習を目的として、
+初めての Web アプリ制作にチャレンジしました。
+また、TailwindCSS の使い方を理解するため、
+簡素ではありますが、デザイン UI やアニメーションにも挑戦しています。
+ビルド・デプロイ・GitHub Page での公開までを一通り経験することを目標に取り組みました。
+
+## 機能一覧
+
+ボタンをクリックすると運勢が表示される
+アニメーション演出あり
+音声付き演出（ON/OFF 検討中）
+
+## 今後の改善ポイント（メモ）
+
+デザインのブラッシュアップ
+SP 表示の最適化
+音声 ON/OFF 切り替え機能
