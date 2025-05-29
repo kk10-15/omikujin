@@ -65,9 +65,9 @@ Web で楽しめるおみくじガチャアプリです！
 
 ## 使用技術
 
-React + TypeScript
-Vite
-Tailwind CSS
+React + TypeScript<br>
+Vite<br>
+Tailwind CSS<br>
 GitHub Pages で公開
 
 ## 開発経緯
@@ -80,12 +80,12 @@ React と TypeScript の学習を目的として、
 
 ## 機能一覧
 
-ボタンをクリックすると運勢が表示される
-アニメーション演出あり
+ボタンをクリックすると運勢が表示される<br>
+アニメーション演出あり<br>
 音声付き演出（ON/OFF 検討中）
 
 ## 今後の改善ポイント（メモ）
 
-デザインのブラッシュアップ
-SP 表示の最適化
+デザインのブラッシュアップ<br>
+SP 表示の最適化<br>
 音声 ON/OFF 切り替え機能
