@@ -61,7 +61,7 @@ Web で楽しめるおみくじガチャアプリです！
 
 ## デモページ
 
-[▶:▶ おみくじんを使ってみる](https://kk10-15.github.io/omikujin/)
+[▶ おみくじんを使ってみる](https://kk10-15.github.io/omikujin/)
 
 ## 使用技術
 
